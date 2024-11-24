@@ -1,0 +1,2 @@
+# RxVenture on FHIR
+This repository will be used to model the post-graduate process for pharmacists in FHIR. This project is exploratory and I welcome any ideas or suggestions for modeling this domain as it'd be great to expand this to other healthcare professionals. 
