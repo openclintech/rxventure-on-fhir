@@ -22,10 +22,10 @@ jobs:
           ls -al output || echo "Output folder not found"
 
       # Step 3: Checkout gh-pages branch
-      - name: Checkout gh-pages branch
+      - name: Checkout gh-pages2 branch
         run: |
-          git fetch origin gh-pages
-          git checkout gh-pages
+          git fetch origin gh-pages2
+          git checkout gh-pages2
 
       # Step 4: Copy output to docs
       - name: Update docs folder
@@ -41,4 +41,4 @@ jobs:
           git config --global user.email "actions@github.com"
           git add docs
           git commit -m "Update docs with new output files" || echo "No changes to commit"
-          git push origin gh-pages
+          git push origin gh-pages2
