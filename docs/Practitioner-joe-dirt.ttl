@@ -1,0 +1,39 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openclintech.com/rxventure/fhir/Practitioner/joe-dirt> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "joe-dirt"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramPractitioner"^^xsd:anyURI ;
+       fhir:link <http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramPractitioner>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner joe-dirt</b></p><a name=\"joe-dirt\"> </a><a name=\"hcjoe-dirt\"> </a><a name=\"joe-dirt-en-US\"> </a><p><b>identifier</b>: <code>http://terminology.hl7.org/NamingSystem/npi</code>/20474171</p><p><b>active</b>: true</p><p><b>name</b>: Joe Dirt </p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">pharmd</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://terminology.hl7.org/NamingSystem/npi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "20474171" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Dirt" ] ;
+     fhir:given ( [ fhir:v "Joe" ] )
+  ] ) ; # 
+  fhir:qualification ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:code [ fhir:v "pharmd" ]
+       ] )
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
