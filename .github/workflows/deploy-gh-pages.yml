@@ -13,20 +13,28 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Checkout gh-pages branch
+      # Step 2: Debug Output Folder
+      - name: Debug Output Folder
+        run: |
+          echo "Current directory contents:"
+          ls -al
+          echo "Output folder contents:"
+          ls -al output || echo "Output folder not found"
+
+      # Step 3: Checkout gh-pages branch
       - name: Checkout gh-pages branch
         run: |
           git fetch origin gh-pages
           git checkout gh-pages
 
-      # Step 3: Copy output to docs
-      - name: Copy output to docs
+      # Step 4: Copy output to docs
+      - name: Update docs folder
         run: |
           rm -rf docs # Clean the existing docs folder
           mkdir -p docs
-          cp -r output/* docs/
+          cp -r output/* docs/ || echo "No files to copy from output"
 
-      # Step 4: Commit and push changes
+      # Step 5: Commit and push changes
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
