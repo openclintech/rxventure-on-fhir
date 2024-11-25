@@ -13,46 +13,39 @@ jobs:
       - name: Checkout main branch
         uses: actions/checkout@v3
 
-      # Step 2: Temporarily include the output folder
-      - name: Modify .gitignore to include output
-        run: |
-          echo "!/output" >> .gitignore
-          git add .gitignore
-          git commit -m "Temporarily include output in .gitignore" || echo "No changes to commit"
-
-      # Step 3: Copy output files to a temporary directory
-      - name: Copy output to temp directory
+      # Step 2: Copy output to a temporary directory
+      - name: Copy output folder to temp
         run: |
           mkdir -p temp-output
           cp -r output/* temp-output/ || echo "No files to copy from output"
 
-      # Step 4: Reset .gitignore changes
-      - name: Revert .gitignore changes
-        run: |
-          git restore .gitignore
-          git commit -m "Revert .gitignore changes" || echo "No changes to commit"
-
-      # Step 5: Switch to gh-pages branch
+      # Step 3: Switch to gh-pages branch
       - name: Checkout gh-pages branch
         run: |
           git fetch origin gh-pages
           git checkout gh-pages
 
-      # Step 6: Clear old files in gh-pages
-      - name: Clear old files
+      # Step 4: Create or clear the docs folder
+      - name: Prepare docs folder
         run: |
-          rm -rf ./*
+          mkdir -p docs
+          rm -rf docs/*
 
-      # Step 7: Deploy files to gh-pages
-      - name: Deploy files to gh-pages
+      # Step 5: Copy files from temp to docs
+      - name: Copy files to docs folder
         run: |
-          cp -r temp-output/* . || echo "No files to deploy"
+          cp -r ../temp-output/* docs/
 
-      # Step 8: Commit and push changes to gh-pages
+      # Step 6: Commit and push changes to gh-pages
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Deploy rendered IG to gh-pages" || echo "No changes to commit"
+          git add docs
+          git commit -m "Deploy rendered IG to gh-pages/docs" || echo "No changes to commit"
           git push origin gh-pages
+
+      # Step 7: Cleanup temp directory
+      - name: Cleanup temp directory
+        run: |
+          rm -rf ../temp-output

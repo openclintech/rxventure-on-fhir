@@ -5,4 +5,4 @@ This repository will be used to model the post-graduate process for pharmacists 
 You can find the published IG here: https://openclintech.github.io/rxventure-on-fhir/artifacts.html
 
 # Notes
-- CI/CD pipeline added for publishing IG upon commit to main. test test2 test3 3d
+- CI/CD pipeline added for publishing IG upon commit to main. test test2 test3 3ddf
