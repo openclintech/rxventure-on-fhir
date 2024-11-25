@@ -13,11 +13,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Copy files from `output` to `docs` in `gh-pages`
-      - name: Deploy to gh-pages
+      # Step 2: Copy the `output` folder to the `docs` folder in `gh-pages`
+      - name: Deploy to gh-pages/docs
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: output
-          destination_dir: docs
+          destination_dir: docs # Specify that output goes into docs folder
           publish_branch: gh-pages
+          keep_files: true # Prevent deletion of other files in gh-pages
