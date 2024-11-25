@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "RxVentureIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-24T14:45:54-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-24T20:16:23-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "http://openclintech.com"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "http://openclintech.com" ] ;
@@ -514,8 +514,8 @@
          fhir:value [ fhir:v "Organization" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://openclintech.com/rxventure/fhir/Organization/MayoClinic> ;
-         fhir:reference [ fhir:v "Organization/MayoClinic" ]
+         fhir:link <http://openclintech.com/rxventure/fhir/Organization/mayo-clinic> ;
+         fhir:reference [ fhir:v "Organization/mayo-clinic" ]
        ] ;
        fhir:name [ fhir:v "MayoClinic" ] ;
        fhir:description [ fhir:v "The Mayo Clinic organization" ] ;
@@ -607,14 +607,29 @@
          fhir:value [ fhir:v "Practitioner" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://openclintech.com/rxventure/fhir/Practitioner/ResidencyDirectorJoeDirt> ;
-         fhir:reference [ fhir:v "Practitioner/ResidencyDirectorJoeDirt" ]
+         fhir:link <http://openclintech.com/rxventure/fhir/Practitioner/joe-dirt> ;
+         fhir:reference [ fhir:v "Practitioner/joe-dirt" ]
        ] ;
        fhir:name [ fhir:v "ResidencyDirectorJoeDirt" ] ;
        fhir:description [ fhir:v "A Residency Directory" ] ;
        fhir:example [
          fhir:v "http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramPractitioner"^^xsd:anyURI ;
          fhir:link <http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramPractitioner>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Organization" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://openclintech.com/rxventure/fhir/Organization/UniversityofUtahHealth> ;
+         fhir:reference [ fhir:v "Organization/UniversityofUtahHealth" ]
+       ] ;
+       fhir:name [ fhir:v "UniversityofUtahHealth" ] ;
+       fhir:description [ fhir:v "University of Utah Health" ] ;
+       fhir:example [
+         fhir:v "http://openclintech.com/rxventure/fhir/StructureDefinition/PostGraduateOrganization"^^xsd:anyURI ;
+         fhir:link <http://openclintech.com/rxventure/fhir/StructureDefinition/PostGraduateOrganization>
        ]
      ] ) ;
      fhir:page [

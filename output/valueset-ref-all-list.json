@@ -71,9 +71,9 @@
       "uses" : {
       },
       "StructureDefinition-PostGraduateOrganization.html" : "PostGraduateOrganization",
-      "StructureDefinition-ProgramPractitioner.html" : "ProgramPractitioner",
       "StructureDefinition-PostGradPosition.html" : "PostGradPosition",
-      "StructureDefinition-ProgramContact.html" : "ProgramContact"
+      "StructureDefinition-ProgramContact.html" : "ProgramContact",
+      "StructureDefinition-ProgramPractitioner.html" : "ProgramPractitioner"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/organization-type",

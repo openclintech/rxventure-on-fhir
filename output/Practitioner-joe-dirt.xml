@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="joe-dirt"/>
+  <meta>
+    <profile value="http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramPractitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Practitioner joe-dirt</b></p><a name="joe-dirt"> </a><a name="hcjoe-dirt"> </a><a name="joe-dirt-en-US"> </a><p><b>identifier</b>: <code>http://terminology.hl7.org/NamingSystem/npi</code>/20474171</p><p><b>active</b>: true</p><p><b>name</b>: Joe Dirt </p><h3>Qualifications</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:">pharmd</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="http://terminology.hl7.org/NamingSystem/npi"/>
+    <value value="20474171"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <family value="Dirt"/>
+    <given value="Joe"/>
+  </name>
+  <qualification>
+    <code>
+      <coding>
+        <code value="pharmd"/>
+      </coding>
+    </code>
+  </qualification>
+</Practitioner>

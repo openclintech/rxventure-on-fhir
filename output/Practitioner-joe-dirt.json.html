@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>ResidencyDirectorJoeDirt - TTL Representation -  v0.1.0</title>
+    <title>ResidencyDirectorJoeDirt - JSON Representation -  v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -109,7 +109,7 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 9" class="col-12">
+<div style="counter-reset: section 8" class="col-12">
 <!--ReleaseHeader--><p id="publish-box">RxVentureIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://openclintech.com/rxventure/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
@@ -123,28 +123,28 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="Practitioner-ResidencyDirectorJoeDirt.html">Narrative Content</a>
+    <a href="Practitioner-joe-dirt.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="Practitioner-ResidencyDirectorJoeDirt.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="Practitioner-ResidencyDirectorJoeDirt.json.html">JSON</a>
+      <a href="Practitioner-joe-dirt.xml.html">XML</a>
     </li>
   
 
 
   
     <li class="active">
-      <a href="#">TTL</a>
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Practitioner-joe-dirt.ttl.html">TTL</a>
     </li>
   
 
@@ -156,55 +156,55 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: ResidencyDirectorJoeDirt - TTL Representation</h2>
+<h2 id="root">: ResidencyDirectorJoeDirt - JSON Representation</h2>
 
 
-<p><a href="Practitioner-ResidencyDirectorJoeDirt.ttl" no-download="true">Raw ttl</a> | <a href="Practitioner-ResidencyDirectorJoeDirt.ttl" download>Download</a></p>
+<p><a href="Practitioner-joe-dirt.json" no-download="true">Raw json</a> | <a href="Practitioner-joe-dirt.json" download>Download</a></p>
 
   <!-- insert intro if present -->
   
 
 
 
-  <pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
-@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
-
-# - resource -------------------------------------------------------------------
-
- a fhir:Practitioner ;
-  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;ResidencyDirectorJoeDirt&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.meta">fhir:meta</a> [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramPractitioner&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramPractitioner&gt;     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Practitioner ResidencyDirectorJoeDirt&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;ResidencyDirectorJoeDirt\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcResidencyDirectorJoeDirt\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;ResidencyDirectorJoeDirt-en-US\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://terminology.hl7.org/NamingSystem/npi&lt;/code&gt;/20474171&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: null null &lt;/p&gt;&lt;h3&gt;Qualifications&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:\&quot;&gt;pharmd&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.identifier">fhir:identifier</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/NamingSystem/npi&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20474171&quot; ]
-  ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.active">fhir:active</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> &quot;true&quot;^^xsd:boolean] ; # 
-  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.name">fhir:name</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Dirt&quot; ]     ] ;
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Joe&quot; ]     ] )
-  ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.qualification">fhir:qualification</a> ( [
-<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.qualification.code">fhir:code</a> [
-      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;pharmd&quot; ]       ] )     ]
-  ] ) . # 
-
-</code></pre>
-
+  <pre class="json" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner">resourceType</a>" : "Practitioner",
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.id">id</a>" : "joe-dirt",
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      <a href="StructureDefinition-ProgramPractitioner.html" style="color: Maroon">&#x1F517;</a> "http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramPractitioner"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Practitioner joe-dirt&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;joe-dirt\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcjoe-dirt\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;joe-dirt-en-US\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://terminology.hl7.org/NamingSystem/npi&lt;/code&gt;/20474171&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Joe Dirt &lt;/p&gt;&lt;h3&gt;Qualifications&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:\&quot;&gt;pharmd&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.identifier">identifier</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "http://terminology.hl7.org/NamingSystem/npi",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "20474171"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.active">active</a>" : true,
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.name">name</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a>" : "Dirt",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "Joe"
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.qualification">qualification</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.qualification.code">code</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "pharmd"
+          }
+        ]
+      }
+    }
+  ]
+}</code></pre>
 
 
   <!-- insert notes if present -->
@@ -228,7 +228,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://openclintech.com">http://openclintech.com</a>.  Package fhir.rxventure#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Nov 24, 2024 14:45-0500">2024-11-24</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://openclintech.com">http://openclintech.com</a>.  Package fhir.rxventure#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Nov 24, 2024 20:16-0500">2024-11-24</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

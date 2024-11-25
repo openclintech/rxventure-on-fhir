@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="RxVentureIG"/>
   <status value="draft"/>
-  <date value="2024-11-24T14:45:54-05:00"/>
+  <date value="2024-11-24T20:16:23-05:00"/>
   <publisher value="http://openclintech.com"/>
   <contact>
     <name value="http://openclintech.com"/>
@@ -446,7 +446,7 @@
         <valueString value="Organization"/>
       </extension>
       <reference>
-        <reference value="Organization/MayoClinic"/>
+        <reference value="Organization/mayo-clinic"/>
       </reference>
       <name value="MayoClinic"/>
       <description value="The Mayo Clinic organization"/>
@@ -523,11 +523,22 @@
         <valueString value="Practitioner"/>
       </extension>
       <reference>
-        <reference value="Practitioner/ResidencyDirectorJoeDirt"/>
+        <reference value="Practitioner/joe-dirt"/>
       </reference>
       <name value="ResidencyDirectorJoeDirt"/>
       <description value="A Residency Directory"/>
       <exampleCanonical value="http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramPractitioner"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/UniversityofUtahHealth"/>
+      </reference>
+      <name value="UniversityofUtahHealth"/>
+      <description value="University of Utah Health"/>
+      <exampleCanonical value="http://openclintech.com/rxventure/fhir/StructureDefinition/PostGraduateOrganization"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

@@ -5,9 +5,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://openclintech.com/rxventure/fhir/Organization/MayoClinic> a fhir:Organization ;
+<http://openclintech.com/rxventure/fhir/Organization/mayo-clinic> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "MayoClinic"] ; # 
+  fhir:id [ fhir:v "mayo-clinic"] ; # 
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://openclintech.com/rxventure/fhir/StructureDefinition/PostGraduateOrganization"^^xsd:anyURI ;
@@ -16,7 +16,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization MayoClinic</b></p><a name=\"MayoClinic\"> </a><a name=\"hcMayoClinic\"> </a><a name=\"MayoClinic-en-US\"> </a><p><b>identifier</b>: <code>ashp.org</code>/1847</p><p><b>active</b>: true</p><p><b>name</b>: Mayo Clinic</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Telecom</b></td></tr><tr><td style=\"display: none\">*</td><td>www.mayoclinic.org</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization mayo-clinic</b></p><a name=\"mayo-clinic\"> </a><a name=\"hcmayo-clinic\"> </a><a name=\"mayo-clinic-en-US\"> </a><p><b>identifier</b>: <code>ashp.org</code>/1847</p><p><b>active</b>: true</p><p><b>name</b>: Mayo Clinic</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Telecom</b></td></tr><tr><td style=\"display: none\">*</td><td>www.mayoclinic.org</td></tr></table></div>"
   ] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "ashp.org"^^xsd:anyURI ] ;

@@ -1,10 +1,11 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-fhir.rxventure.json	3390	-	0	0	0	0	0	0	2	120	0	0	0	0	0	0	0	0	0	0	53	45	0	0	0	1	0	1
-fsh-generated/resources/Organization-MayoClinic.json	438	7	0	0	0	2	0	0	0	220	0	0	0	0	0	0	0	0	0	0	6	9	0	0	0	0	0	0
-fsh-generated/resources/Practitioner-ResidencyDirectorJoeDirt.json	639	6	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	7	10	0	0	0	0	0	0
-fsh-generated/resources/PractitionerRole-MayoClinicPGY1PharmacyResident.json	916	7	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	7	7	0	0	0	0	0	0
-fsh-generated/resources/PractitionerRole-MayoClinicPGY1ProgramDirector.json	449	6	1	0	1	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	6	6	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-PostGradPosition.json	1806	7	0	0	1	0	0	34	0	26	0	0	1	0	0	0	0	1	0	0	120	1442	0	0	0	3	0	1
-fsh-generated/resources/StructureDefinition-PostGraduateOrganization.json	1084	6	0	0	0	0	0	10	0	13	0	0	0	0	0	0	0	0	0	0	99	265	0	0	0	2	1	1
-fsh-generated/resources/StructureDefinition-ProgramContact.json	1547	6	0	0	0	0	0	25	0	14	0	0	0	0	0	0	0	1	0	0	108	273	0	0	0	2	0	1
-fsh-generated/resources/StructureDefinition-ProgramPractitioner.json	1101	6	0	0	0	0	0	11	0	12	0	0	0	0	0	0	0	0	0	0	92	230	0	0	0	5	0	1
+/fsh-generated/resources/ImplementationGuide-fhir.rxventure.json	3695	-	0	0	0	0	0	0	3	123	0	0	0	0	0	0	0	0	0	0	53	43	0	0	0	2	0	0
+fsh-generated/resources/Organization-UniversityofUtahHealth.json	465	7	0	0	0	0	0	0	0	199	0	0	0	0	0	0	0	0	0	0	7	9	0	0	0	0	0	0
+fsh-generated/resources/Organization-mayo-clinic.json	439	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	6	0	0	0	0	0	0
+fsh-generated/resources/Practitioner-joe-dirt.json	563	6	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	7	8	0	0	0	0	0	0
+fsh-generated/resources/PractitionerRole-MayoClinicPGY1PharmacyResident.json	916	6	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	8	8	0	0	0	0	0	0
+fsh-generated/resources/PractitionerRole-MayoClinicPGY1ProgramDirector.json	449	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	8	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-PostGradPosition.json	1806	6	1	0	0	0	0	32	0	29	0	0	1	0	0	0	0	0	0	0	123	1351	0	0	0	6	0	1
+fsh-generated/resources/StructureDefinition-PostGraduateOrganization.json	1084	6	0	0	0	0	0	13	0	14	0	0	0	0	0	0	0	0	0	0	93	271	0	0	0	3	0	0
+fsh-generated/resources/StructureDefinition-ProgramContact.json	1547	6	0	0	0	0	0	26	0	14	0	0	0	0	0	0	0	1	0	0	110	277	0	0	0	2	0	1
+fsh-generated/resources/StructureDefinition-ProgramPractitioner.json	1101	6	0	0	0	0	0	14	0	15	0	0	0	0	0	0	0	0	0	0	88	240	0	0	0	2	0	0

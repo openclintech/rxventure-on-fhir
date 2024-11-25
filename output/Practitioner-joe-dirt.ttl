@@ -5,9 +5,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://openclintech.com/rxventure/fhir/Practitioner/ResidencyDirectorJoeDirt> a fhir:Practitioner ;
+<http://openclintech.com/rxventure/fhir/Practitioner/joe-dirt> a fhir:Practitioner ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "ResidencyDirectorJoeDirt"] ; # 
+  fhir:id [ fhir:v "joe-dirt"] ; # 
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramPractitioner"^^xsd:anyURI ;
@@ -16,7 +16,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner ResidencyDirectorJoeDirt</b></p><a name=\"ResidencyDirectorJoeDirt\"> </a><a name=\"hcResidencyDirectorJoeDirt\"> </a><a name=\"ResidencyDirectorJoeDirt-en-US\"> </a><p><b>identifier</b>: <code>http://terminology.hl7.org/NamingSystem/npi</code>/20474171</p><p><b>active</b>: true</p><p><b>name</b>: null null </p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">pharmd</span></td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner joe-dirt</b></p><a name=\"joe-dirt\"> </a><a name=\"hcjoe-dirt\"> </a><a name=\"joe-dirt-en-US\"> </a><p><b>identifier</b>: <code>http://terminology.hl7.org/NamingSystem/npi</code>/20474171</p><p><b>active</b>: true</p><p><b>name</b>: Joe Dirt </p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">pharmd</span></td></tr></table></div>"
   ] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "http://terminology.hl7.org/NamingSystem/npi"^^xsd:anyURI ] ;
@@ -24,12 +24,8 @@
   ] ) ; # 
   fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
   fhir:name ( [
-     fhir:family [
-       fhir:value [ fhir:v "Dirt" ]
-     ] ;
-     fhir:given ( [
-       fhir:value [ fhir:v "Joe" ]
-     ] )
+     fhir:family [ fhir:v "Dirt" ] ;
+     fhir:given ( [ fhir:v "Joe" ] )
   ] ) ; # 
   fhir:qualification ( [
      fhir:code [

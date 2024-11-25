@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "RxVentureIG",
   "status" : "draft",
-  "date" : "2024-11-24T14:45:54-05:00",
+  "date" : "2024-11-24T20:16:23-05:00",
   "publisher" : "http://openclintech.com",
   "contact" : [{
     "name" : "http://openclintech.com",
@@ -602,7 +602,7 @@
         "valueString" : "Organization"
       }],
       "reference" : {
-        "reference" : "Organization/MayoClinic"
+        "reference" : "Organization/mayo-clinic"
       },
       "name" : "MayoClinic",
       "description" : "The Mayo Clinic organization",
@@ -686,11 +686,23 @@
         "valueString" : "Practitioner"
       }],
       "reference" : {
-        "reference" : "Practitioner/ResidencyDirectorJoeDirt"
+        "reference" : "Practitioner/joe-dirt"
       },
       "name" : "ResidencyDirectorJoeDirt",
       "description" : "A Residency Directory",
       "exampleCanonical" : "http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramPractitioner"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/UniversityofUtahHealth"
+      },
+      "name" : "UniversityofUtahHealth",
+      "description" : "University of Utah Health",
+      "exampleCanonical" : "http://openclintech.com/rxventure/fhir/StructureDefinition/PostGraduateOrganization"
     }],
     "page" : {
       "extension" : [{
