@@ -2,6 +2,6 @@
 Thumbs.db
 /fsh-generated
 /input-cache
-/output
+# /output so that github workflows can access it
 /temp
 /template

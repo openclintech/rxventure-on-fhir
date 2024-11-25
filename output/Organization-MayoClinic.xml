@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="MayoClinic"/>
+  <meta>
+    <profile value="http://openclintech.com/rxventure/fhir/StructureDefinition/PostGraduateOrganization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Organization MayoClinic</b></p><a name="MayoClinic"> </a><a name="hcMayoClinic"> </a><a name="MayoClinic-en-US"> </a><p><b>identifier</b>: <code>ashp.org</code>/1847</p><p><b>active</b>: true</p><p><b>name</b>: Mayo Clinic</p><h3>Contacts</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Telecom</b></td></tr><tr><td style="display: none">*</td><td>www.mayoclinic.org</td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="ashp.org"/>
+    <value value="1847"/>
+  </identifier>
+  <active value="true"/>
+  <name value="Mayo Clinic"/>
+  <contact>
+    <telecom>
+      <value value="www.mayoclinic.org"/>
+    </telecom>
+  </contact>
+</Organization>

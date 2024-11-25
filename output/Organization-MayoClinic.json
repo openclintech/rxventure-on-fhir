@@ -1,0 +1,22 @@
+{
+  "resourceType" : "Organization",
+  "id" : "MayoClinic",
+  "meta" : {
+    "profile" : ["http://openclintech.com/rxventure/fhir/StructureDefinition/PostGraduateOrganization"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization MayoClinic</b></p><a name=\"MayoClinic\"> </a><a name=\"hcMayoClinic\"> </a><a name=\"MayoClinic-en-US\"> </a><p><b>identifier</b>: <code>ashp.org</code>/1847</p><p><b>active</b>: true</p><p><b>name</b>: Mayo Clinic</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Telecom</b></td></tr><tr><td style=\"display: none\">*</td><td>www.mayoclinic.org</td></tr></table></div>"
+  },
+  "identifier" : [{
+    "system" : "ashp.org",
+    "value" : "1847"
+  }],
+  "active" : true,
+  "name" : "Mayo Clinic",
+  "contact" : [{
+    "telecom" : [{
+      "value" : "www.mayoclinic.org"
+    }]
+  }]
+}
