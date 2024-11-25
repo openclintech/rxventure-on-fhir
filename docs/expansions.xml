@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="af910c60-8a19-473a-9481-3a3ef97397ba"/>
+  <meta>
+    <lastUpdated value="2024-11-24T22:14:17.951-05:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://openclintech.com/rxventure/fhir/ValueSet/PostGraduateCategory"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-post-graduate-category.html">codesystem Post Graduate Category v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category-pgy1"> </a>  
+                  <a href="CodeSystem-post-graduate-category.html#post-graduate-category-pgy1">pgy1</a>
+                </td>
+                <td>http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category</td>
+                <td>PGY-1</td>
+                <td>
+                  <div>
+                    <p>Post-Graduate Year 1 positions</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category-pgy2"> </a>  
+                  <a href="CodeSystem-post-graduate-category.html#post-graduate-category-pgy2">pgy2</a>
+                </td>
+                <td>http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category</td>
+                <td>PGY-2</td>
+                <td>
+                  <div>
+                    <p>Post-Graduate Year 2 positions</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openclintech.com/rxventure/fhir/ValueSet/PostGraduateCategory"/>
+        <version value="0.1.0"/>
+        <name value="PostGraduateCategory_VS"/>
+        <title value="PostGraduateCategory_VS"/>
+        <status value="draft"/>
+        <date value="2024-11-24T22:14:17-05:00"/>
+        <expansion>
+          <identifier value="urn:uuid:218f6ae2-ea01-4411-bfa2-38f39fcf8d00"/>
+          <timestamp value="2024-11-24T22:14:27-05:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category"/>
+            <code value="pgy1"/>
+            <display value="PGY-1"/>
+          </contains>
+          <contains>
+            <system value="http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category"/>
+            <code value="pgy2"/>
+            <display value="PGY-2"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

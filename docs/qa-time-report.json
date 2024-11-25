@@ -1,0 +1,523 @@
+{
+  "date" : "Sun, 24 Nov, 2024 22:14:17 -0500",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-fhir.rxventure.json",
+      "size" : 4202,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 12,
+          "length" : 6
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 12,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 119
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 346
+        },
+        {
+          "activity" : "generate1",
+          "start" : 14,
+          "length" : 47
+        },
+        {
+          "activity" : "generate2",
+          "start" : 15,
+          "length" : 39
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 24,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 24,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 27,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-post-graduate-category.json",
+      "size" : 580,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 7
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 12,
+          "length" : 1
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 12,
+          "length" : 1
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 12,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 12,
+          "length" : 14
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 24
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 14,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 14,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 15,
+          "length" : 924
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-UniversityofUtahHealth.json",
+      "size" : 465,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 167
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 14,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 14,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 14,
+          "length" : 6
+        },
+        {
+          "activity" : "generate2",
+          "start" : 16,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-mayo-clinic.json",
+      "size" : 439,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 13,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 14,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 14,
+          "length" : 5
+        },
+        {
+          "activity" : "generate2",
+          "start" : 16,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Practitioner-joe-dirt.json",
+      "size" : 563,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 14,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 14,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 16,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/PractitionerRole-MayoClinicPGY1ProgramDirector.json",
+      "size" : 449,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 5
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 12,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 13,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 14,
+          "length" : 6
+        },
+        {
+          "activity" : "generate1",
+          "start" : 14,
+          "length" : 6
+        },
+        {
+          "activity" : "generate2",
+          "start" : 16,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/PractitionerRole-MayoClinicRochesterPGY1PharmacyResident.json",
+      "size" : 982,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 13,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 14,
+          "length" : 66
+        },
+        {
+          "activity" : "generate1",
+          "start" : 14,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 16,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PostGradPosition.json",
+      "size" : 3591,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 12,
+          "length" : 20
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 12,
+          "length" : 37
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 13,
+          "length" : 67
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 319
+        },
+        {
+          "activity" : "generate1",
+          "start" : 14,
+          "length" : 201
+        },
+        {
+          "activity" : "generate2",
+          "start" : 16,
+          "length" : 1362
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 24,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PostGraduateOrganization.json",
+      "size" : 1084,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 12,
+          "length" : 3
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 12,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 13,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 81
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 14,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 14,
+          "length" : 91
+        },
+        {
+          "activity" : "generate2",
+          "start" : 17,
+          "length" : 292
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 24,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ProgramContact.json",
+      "size" : 1547,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 12,
+          "length" : 1
+        },
+        {
+          "activity" : "scan",
+          "start" : 12,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 12,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 12,
+          "length" : 36
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 13,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 68
+        },
+        {
+          "activity" : "generate1",
+          "start" : 14,
+          "length" : 129
+        },
+        {
+          "activity" : "generate2",
+          "start" : 18,
+          "length" : 260
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 24,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ProgramPractitioner.json",
+      "size" : 1101,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 12,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 12,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 13,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 56
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 14,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 14,
+          "length" : 88
+        },
+        {
+          "activity" : "generate2",
+          "start" : 18,
+          "length" : 210
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 24,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 27,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-PostGraduateCategory.json",
+      "size" : 451,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 12,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 13,
+          "length" : 44
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 10
+        },
+        {
+          "activity" : "generate1",
+          "start" : 14,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 18,
+          "length" : 2090
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 27,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}

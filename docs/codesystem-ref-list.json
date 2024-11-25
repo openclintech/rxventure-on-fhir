@@ -1,0 +1,15 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PostGraduateCategory_CS",
+      "title" : "Post Graduate Category",
+      "description" : "Post Graduate Categories",
+      "uses" : {
+      },
+      "ValueSet-PostGraduateCategory.html" : "PostGraduateCategory_VS"
+    }
+  ]
+}

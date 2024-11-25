@@ -1,0 +1,13 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-fhir.rxventure.json	4202	-	0	0	0	0	0	0	2	119	0	0	0	0	0	0	0	0	0	0	47	39	0	0	1	2	0	1
+fsh-generated/resources/CodeSystem-post-graduate-category.json	580	7	1	0	1	1	0	0	0	10	0	0	1	0	0	0	0	0	0	0	10	924	0	0	0	0	0	0
+fsh-generated/resources/Organization-UniversityofUtahHealth.json	465	6	0	0	0	0	0	0	0	167	0	0	0	0	0	0	0	1	0	0	6	10	0	0	0	0	0	0
+fsh-generated/resources/Organization-mayo-clinic.json	439	5	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	5	6	0	0	0	0	0	0
+fsh-generated/resources/Practitioner-joe-dirt.json	563	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	7	0	0	0	0	0	0
+fsh-generated/resources/PractitionerRole-MayoClinicPGY1ProgramDirector.json	449	5	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	6	11	0	0	0	0	0	0
+fsh-generated/resources/PractitionerRole-MayoClinicRochesterPGY1PharmacyResident.json	982	6	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	10	7	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-PostGradPosition.json	3591	7	0	0	0	0	0	37	0	67	0	0	0	0	0	0	0	0	0	0	201	1362	0	0	0	10	0	0
+fsh-generated/resources/StructureDefinition-PostGraduateOrganization.json	1084	12	0	0	0	0	0	9	0	13	0	0	0	0	0	0	0	1	0	0	91	292	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-ProgramContact.json	1547	6	1	0	0	0	0	36	0	11	0	0	0	0	0	0	0	0	0	0	129	260	0	0	0	6	0	0
+fsh-generated/resources/StructureDefinition-ProgramPractitioner.json	1101	4	0	0	0	0	0	10	0	11	0	0	0	0	0	0	0	1	0	0	88	210	0	0	0	2	0	1
+fsh-generated/resources/ValueSet-PostGraduateCategory.json	451	1	0	0	0	0	0	0	0	44	0	0	0	0	0	0	0	0	0	0	7	2090	0	0	0	0	0	1

@@ -1,0 +1,56 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "af910c60-8a19-473a-9481-3a3ef97397ba",
+  "meta" : {
+    "lastUpdated" : "2024-11-24T22:14:17.951-05:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://openclintech.com/rxventure/fhir/ValueSet/PostGraduateCategory",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-post-graduate-category.html\">codesystem Post Graduate Category v0.1.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category-pgy1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-post-graduate-category.html#post-graduate-category-pgy1\">pgy1</a></td><td>http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category</td><td>PGY-1</td><td><div><p>Post-Graduate Year 1 positions</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category-pgy2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-post-graduate-category.html#post-graduate-category-pgy2\">pgy2</a></td><td>http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category</td><td>PGY-2</td><td><div><p>Post-Graduate Year 2 positions</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://openclintech.com/rxventure/fhir/ValueSet/PostGraduateCategory",
+      "version" : "0.1.0",
+      "name" : "PostGraduateCategory_VS",
+      "title" : "PostGraduateCategory_VS",
+      "status" : "draft",
+      "date" : "2024-11-24T22:14:17-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:218f6ae2-ea01-4411-bfa2-38f39fcf8d00",
+        "timestamp" : "2024-11-24T22:14:27-05:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category",
+          "code" : "pgy1",
+          "display" : "PGY-1"
+        },
+        {
+          "system" : "http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category",
+          "code" : "pgy2",
+          "display" : "PGY-2"
+        }]
+      }
+    }
+  }]
+}
