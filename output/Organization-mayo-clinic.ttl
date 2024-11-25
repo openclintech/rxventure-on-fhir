@@ -1,0 +1,34 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openclintech.com/rxventure/fhir/Organization/mayo-clinic> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mayo-clinic"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openclintech.com/rxventure/fhir/StructureDefinition/PostGraduateOrganization"^^xsd:anyURI ;
+       fhir:link <http://openclintech.com/rxventure/fhir/StructureDefinition/PostGraduateOrganization>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization mayo-clinic</b></p><a name=\"mayo-clinic\"> </a><a name=\"hcmayo-clinic\"> </a><a name=\"mayo-clinic-en-US\"> </a><p><b>identifier</b>: <code>ashp.org</code>/1847</p><p><b>active</b>: true</p><p><b>name</b>: Mayo Clinic</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Telecom</b></td></tr><tr><td style=\"display: none\">*</td><td>www.mayoclinic.org</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "ashp.org"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1847" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:name [ fhir:v "Mayo Clinic"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:value [ fhir:v "www.mayoclinic.org" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
