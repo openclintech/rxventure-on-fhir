@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Update Docs Folder
 
 on:
   push:
@@ -13,32 +13,32 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Debug Output Folder
-      - name: Debug Output Folder
+      # Step 2: Override .gitignore to include output folder
+      - name: Include output folder
         run: |
-          echo "Current directory contents:"
-          ls -al
-          echo "Output folder contents:"
-          ls -al output || echo "Output folder not found"
+          echo "!/output" >> .gitignore
+          git add .gitignore
+          git commit -m "Temporarily include output folder" || echo "No changes to commit"
 
-      # Step 3: Checkout gh-pages branch
-      - name: Checkout gh-pages2 branch
+      # Step 3: Move files from output to docs
+      - name: Move files to docs folder
         run: |
-          git fetch origin gh-pages2
-          git checkout gh-pages2
-
-      # Step 4: Copy output to docs
-      - name: Update docs folder
-        run: |
-          rm -rf docs # Clean the existing docs folder
           mkdir -p docs
-          cp -r output/* docs/ || echo "No files to copy from output"
+          rm -rf docs/* # Clear existing docs folder
+          cp -r output/* docs/
 
-      # Step 5: Commit and push changes
+      # Step 4: Commit and push updated docs folder
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add docs
-          git commit -m "Update docs with new output files" || echo "No changes to commit"
-          git push origin gh-pages2
+          git commit -m "Update docs with latest IG output" || echo "No changes to commit"
+          git push origin main
+
+      # Step 5: Revert .gitignore
+      - name: Revert .gitignore changes
+        run: |
+          git restore .gitignore
+          git commit -m "Revert temporary .gitignore changes" || echo "No changes to commit"
+          git push origin main
