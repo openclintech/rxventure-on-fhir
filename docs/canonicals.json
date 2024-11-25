@@ -1,0 +1,37 @@
+[
+  {
+    "id" : "fhir.rxventure",
+    "type" : "ImplementationGuide",
+    "url" : "http://openclintech.com/rxventure/fhir/ImplementationGuide/fhir.rxventure",
+    "version" : "0.1.0",
+    "name" : "RxVentureIG"
+  },
+  {
+    "id" : "PostGradPosition",
+    "type" : "StructureDefinition",
+    "url" : "http://openclintech.com/rxventure/fhir/StructureDefinition/PostGradPosition",
+    "version" : "0.1.0",
+    "name" : "PostGradPosition"
+  },
+  {
+    "id" : "PostGraduateOrganization",
+    "type" : "StructureDefinition",
+    "url" : "http://openclintech.com/rxventure/fhir/StructureDefinition/PostGraduateOrganization",
+    "version" : "0.1.0",
+    "name" : "PostGraduateOrganization"
+  },
+  {
+    "id" : "ProgramContact",
+    "type" : "StructureDefinition",
+    "url" : "http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramContact",
+    "version" : "0.1.0",
+    "name" : "ProgramContact"
+  },
+  {
+    "id" : "ProgramPractitioner",
+    "type" : "StructureDefinition",
+    "url" : "http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramPractitioner",
+    "version" : "0.1.0",
+    "name" : "ProgramPractitioner"
+  }
+]

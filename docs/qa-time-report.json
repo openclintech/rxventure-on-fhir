@@ -1,0 +1,406 @@
+{
+  "date" : "Sun, 24 Nov, 2024 20:16:23 -0500",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-fhir.rxventure.json",
+      "size" : 3695,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 10
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 11,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 11,
+          "length" : 123
+        },
+        {
+          "activity" : "validate",
+          "start" : 12,
+          "length" : 314
+        },
+        {
+          "activity" : "generate1",
+          "start" : 13,
+          "length" : 53
+        },
+        {
+          "activity" : "generate2",
+          "start" : 14,
+          "length" : 43
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 21,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-UniversityofUtahHealth.json",
+      "size" : 465,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 199
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 13,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 14,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-mayo-clinic.json",
+      "size" : 439,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 13,
+          "length" : 6
+        },
+        {
+          "activity" : "generate2",
+          "start" : 14,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Practitioner-joe-dirt.json",
+      "size" : 563,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 13,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 14,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/PractitionerRole-MayoClinicPGY1PharmacyResident.json",
+      "size" : 916,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 151
+        },
+        {
+          "activity" : "generate1",
+          "start" : 13,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 14,
+          "length" : 8
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 21,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/PractitionerRole-MayoClinicPGY1ProgramDirector.json",
+      "size" : 449,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 13,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 13,
+          "length" : 6
+        },
+        {
+          "activity" : "generate2",
+          "start" : 14,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PostGradPosition.json",
+      "size" : 1806,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 11,
+          "length" : 32
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 29
+        },
+        {
+          "activity" : "validate",
+          "start" : 12,
+          "length" : 320
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 13,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 13,
+          "length" : 123
+        },
+        {
+          "activity" : "generate2",
+          "start" : 14,
+          "length" : 1351
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 21,
+          "length" : 6
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 24,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-PostGraduateOrganization.json",
+      "size" : 1084,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 11,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 12,
+          "length" : 97
+        },
+        {
+          "activity" : "generate1",
+          "start" : 13,
+          "length" : 93
+        },
+        {
+          "activity" : "generate2",
+          "start" : 16,
+          "length" : 271
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 21,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ProgramContact.json",
+      "size" : 1547,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 7
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 11,
+          "length" : 26
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 12,
+          "length" : 87
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 13,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 13,
+          "length" : 110
+        },
+        {
+          "activity" : "generate2",
+          "start" : 16,
+          "length" : 277
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 21,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 24,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ProgramPractitioner.json",
+      "size" : 1101,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 11,
+          "length" : 14
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 12,
+          "length" : 53
+        },
+        {
+          "activity" : "generate1",
+          "start" : 13,
+          "length" : 88
+        },
+        {
+          "activity" : "generate2",
+          "start" : 16,
+          "length" : 240
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 21,
+          "length" : 2
+        }
+      ]
+    }
+  ]
+}

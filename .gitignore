@@ -4,4 +4,4 @@ Thumbs.db
 /input-cache
 /output so that github workflows can access it
 /temp
-/template
+/template!/output

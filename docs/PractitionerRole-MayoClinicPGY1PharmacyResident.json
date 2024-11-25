@@ -1,0 +1,34 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "MayoClinicPGY1PharmacyResident",
+  "meta" : {
+    "profile" : ["http://openclintech.com/rxventure/fhir/StructureDefinition/PostGradPosition"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole MayoClinicPGY1PharmacyResident</b></p><a name=\"MayoClinicPGY1PharmacyResident\"> </a><a name=\"hcMayoClinicPGY1PharmacyResident\"> </a><a name=\"MayoClinicPGY1PharmacyResident-en-US\"> </a><p><b>identifier</b>: <code>ashp.org</code>/4724</p><p><b>active</b>: true</p><p><b>organization</b>: <a href=\"Organization-mayo-clinic.html\">Organization Mayo Clinic</a></p><p><b>code</b>: <span title=\"Codes:{https://www.openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category pgy-1}\">Post-graduate Year 1</span></p><p><b>specialty</b>: <span title=\"Codes:{https://www.openclintech.com/rxventure/fhir/CodeSystem/post-graduate-specialty pharmacy-practice}\">Pharmacy Practice</span></p></div>"
+  },
+  "identifier" : [{
+    "system" : "ashp.org",
+    "value" : "4724"
+  }],
+  "active" : true,
+  "organization" : {
+    "reference" : "Organization/mayo-clinic",
+    "type" : "Organization"
+  },
+  "code" : [{
+    "coding" : [{
+      "system" : "https://www.openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category",
+      "code" : "pgy-1",
+      "display" : "Post-graduate Year 1"
+    }]
+  }],
+  "specialty" : [{
+    "coding" : [{
+      "system" : "https://www.openclintech.com/rxventure/fhir/CodeSystem/post-graduate-specialty",
+      "code" : "pharmacy-practice",
+      "display" : "Pharmacy Practice"
+    }]
+  }]
+}
