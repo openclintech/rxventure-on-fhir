@@ -9,34 +9,46 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Check out the repository
+      # Step 1: Check out the main branch
       - name: Checkout main branch
         uses: actions/checkout@v3
 
-      # Step 2: Temporarily un-ignore the output folder
-      - name: Override .gitignore for output
+      # Step 2: Temporarily include the output folder
+      - name: Modify .gitignore to include output
         run: |
           echo "!/output" >> .gitignore
           git add .gitignore
-          git commit -m "Temporarily un-ignore output folder" || echo "No changes to commit"
+          git commit -m "Temporarily include output in .gitignore" || echo "No changes to commit"
 
-      # Step 3: Switch to  branch
+      # Step 3: Copy output files to a temporary directory
+      - name: Copy output to temp directory
+        run: |
+          mkdir -p temp-output
+          cp -r output/* temp-output/ || echo "No files to copy from output"
+
+      # Step 4: Reset .gitignore changes
+      - name: Revert .gitignore changes
+        run: |
+          git restore .gitignore
+          git commit -m "Revert .gitignore changes" || echo "No changes to commit"
+
+      # Step 5: Switch to gh-pages branch
       - name: Checkout gh-pages branch
         run: |
           git fetch origin gh-pages
           git checkout gh-pages
 
-      # Step 4: Clear old files in gh-pages
+      # Step 6: Clear old files in gh-pages
       - name: Clear old files
         run: |
           rm -rf ./*
 
-      # Step 5: Copy files from output to gh-pages
-      - name: Copy output files
+      # Step 7: Deploy files to gh-pages
+      - name: Deploy files to gh-pages
         run: |
-          cp -r ../output/* . || echo "No files to copy from output"
+          cp -r temp-output/* . || echo "No files to deploy"
 
-      # Step 6: Commit and push to gh-pages
+      # Step 8: Commit and push changes to gh-pages
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
@@ -44,10 +56,3 @@ jobs:
           git add .
           git commit -m "Deploy rendered IG to gh-pages" || echo "No changes to commit"
           git push origin gh-pages
-
-      # Step 7: Revert .gitignore to ignore output again
-      - name: Restore .gitignore
-        run: |
-          git restore .gitignore
-          git commit -m "Revert .gitignore changes" || echo "No changes to commit"
-          git push origin main
