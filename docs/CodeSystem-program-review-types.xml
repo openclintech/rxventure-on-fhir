@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="program-review-types"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem program-review-types</b></p><a name="program-review-types"> </a><a name="hcprogram-review-types"> </a><a name="program-review-types-en-US"> </a><p>This  code system <code>http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">overall<a name="program-review-types-overall"> </a></td><td>Overall</td><td>Overall review of the residency program on a scale of 1 to 10. 1 being the worst and 10 being the best.</td></tr><tr><td style="white-space:nowrap">preceptor-quality<a name="program-review-types-preceptor-quality"> </a></td><td>Preceptor Quality</td><td>A review of the quality of preceptors at the residency program.</td></tr></table></div>
+  </text>
+  <url value="http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types"/>
+  <version value="0.1.0"/>
+  <name value="ProgramReviewTypes_CS"/>
+  <title value="Program Review Types"/>
+  <status value="draft"/>
+  <date value="2024-11-28T00:01:09-05:00"/>
+  <publisher value="http://openclintech.com"/>
+  <contact>
+    <name value="http://openclintech.com"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://openclintech.com"/>
+    </telecom>
+  </contact>
+  <description value="The different types of reviews an individual can leave for a residency program."/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="overall"/>
+    <display value="Overall"/>
+    <definition value="Overall review of the residency program on a scale of 1 to 10. 1 being the worst and 10 being the best."/>
+  </concept>
+  <concept>
+    <code value="preceptor-quality"/>
+    <display value="Preceptor Quality"/>
+    <definition value="A review of the quality of preceptors at the residency program."/>
+  </concept>
+</CodeSystem>

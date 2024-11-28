@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ExampleReviewOfMayoClinicPGY1"/>
+  <meta>
+    <profile value="http://openclintech.com/rxventure/fhir/StructureDefinition/program-review"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation ExampleReviewOfMayoClinicPGY1</b></p><a name="ExampleReviewOfMayoClinicPGY1"> </a><a name="hcExampleReviewOfMayoClinicPGY1"> </a><a name="ExampleReviewOfMayoClinicPGY1-en-US"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types overall}">Overall</span></p><p><b>focus</b>: <a href="PractitionerRole-mayo-clinic-rochester-pgy-1.html">PractitionerRole PGY-1</a></p><p><b>effective</b>: 2024-11-27</p><p><b>performer</b>: <a href="Practitioner-joe-dirt.html">Practitioner Joe Dirt </a></p><p><b>value</b>: 10</p><p><b>note</b>: Mayo Clinic Rochester PGY-1 is AWESOME. It's just very cold in Minnesota :(.</p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types"/>
+      <code value="overall"/>
+    </coding>
+  </code>
+  <focus>
+    <reference value="PractitionerRole/mayo-clinic-rochester-pgy-1"/>
+    <type value="PractitionerRole"/>
+  </focus>
+  <effectiveDateTime value="2024-11-27"/>
+  <performer>
+    <reference value="Practitioner/joe-dirt"/>
+    <type value="Practitioner"/>
+  </performer>
+  <valueInteger value="10"/>
+  <note>
+    <text value="Mayo Clinic Rochester PGY-1 is AWESOME. It's just very cold in Minnesota :(."/>
+  </note>
+</Observation>

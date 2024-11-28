@@ -1,0 +1,35 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "program-review-types",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem program-review-types</b></p><a name=\"program-review-types\"> </a><a name=\"hcprogram-review-types\"> </a><a name=\"program-review-types-en-US\"> </a><p>This  code system <code>http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">overall<a name=\"program-review-types-overall\"> </a></td><td>Overall</td><td>Overall review of the residency program on a scale of 1 to 10. 1 being the worst and 10 being the best.</td></tr><tr><td style=\"white-space:nowrap\">preceptor-quality<a name=\"program-review-types-preceptor-quality\"> </a></td><td>Preceptor Quality</td><td>A review of the quality of preceptors at the residency program.</td></tr></table></div>"
+  },
+  "url" : "http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types",
+  "version" : "0.1.0",
+  "name" : "ProgramReviewTypes_CS",
+  "title" : "Program Review Types",
+  "status" : "draft",
+  "date" : "2024-11-28T00:01:09-05:00",
+  "publisher" : "http://openclintech.com",
+  "contact" : [{
+    "name" : "http://openclintech.com",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://openclintech.com"
+    }]
+  }],
+  "description" : "The different types of reviews an individual can leave for a residency program.",
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "overall",
+    "display" : "Overall",
+    "definition" : "Overall review of the residency program on a scale of 1 to 10. 1 being the worst and 10 being the best."
+  },
+  {
+    "code" : "preceptor-quality",
+    "display" : "Preceptor Quality",
+    "definition" : "A review of the quality of preceptors at the residency program."
+  }]
+}

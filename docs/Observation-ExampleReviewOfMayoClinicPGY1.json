@@ -1,0 +1,31 @@
+{
+  "resourceType" : "Observation",
+  "id" : "ExampleReviewOfMayoClinicPGY1",
+  "meta" : {
+    "profile" : ["http://openclintech.com/rxventure/fhir/StructureDefinition/program-review"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation ExampleReviewOfMayoClinicPGY1</b></p><a name=\"ExampleReviewOfMayoClinicPGY1\"> </a><a name=\"hcExampleReviewOfMayoClinicPGY1\"> </a><a name=\"ExampleReviewOfMayoClinicPGY1-en-US\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types overall}\">Overall</span></p><p><b>focus</b>: <a href=\"PractitionerRole-mayo-clinic-rochester-pgy-1.html\">PractitionerRole PGY-1</a></p><p><b>effective</b>: 2024-11-27</p><p><b>performer</b>: <a href=\"Practitioner-joe-dirt.html\">Practitioner Joe Dirt </a></p><p><b>value</b>: 10</p><p><b>note</b>: Mayo Clinic Rochester PGY-1 is AWESOME. It's just very cold in Minnesota :(.</p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types",
+      "code" : "overall"
+    }]
+  },
+  "focus" : [{
+    "reference" : "PractitionerRole/mayo-clinic-rochester-pgy-1",
+    "type" : "PractitionerRole"
+  }],
+  "effectiveDateTime" : "2024-11-27",
+  "performer" : [{
+    "reference" : "Practitioner/joe-dirt",
+    "type" : "Practitioner"
+  }],
+  "valueInteger" : 10,
+  "note" : [{
+    "text" : "Mayo Clinic Rochester PGY-1 is AWESOME. It's just very cold in Minnesota :(."
+  }]
+}

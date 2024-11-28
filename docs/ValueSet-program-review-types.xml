@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="program-review-types"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet program-review-types</b></p><a name="program-review-types"> </a><a name="hcprogram-review-types"> </a><a name="program-review-types-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-program-review-types.html"><code>http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types</code></a></li></ul></div>
+  </text>
+  <url value="http://openclintech.com/rxventure/fhir/ValueSet/program-review-types"/>
+  <version value="0.1.0"/>
+  <name value="ProgramReviewTypes_VS"/>
+  <title value="Program Review Types"/>
+  <status value="draft"/>
+  <date value="2024-11-28T00:01:09-05:00"/>
+  <publisher value="http://openclintech.com"/>
+  <contact>
+    <name value="http://openclintech.com"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://openclintech.com"/>
+    </telecom>
+  </contact>
+  <description value="A value set for the different types of reviews for a residency program."/>
+  <compose>
+    <include>
+      <system value="http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types"/>
+    </include>
+  </compose>
+</ValueSet>

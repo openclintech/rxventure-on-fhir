@@ -1,0 +1,37 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openclintech.com/rxventure/fhir/ValueSet/program-review-types> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "program-review-types"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet program-review-types</b></p><a name=\"program-review-types\"> </a><a name=\"hcprogram-review-types\"> </a><a name=\"program-review-types-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-program-review-types.html\"><code>http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://openclintech.com/rxventure/fhir/ValueSet/program-review-types"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ProgramReviewTypes_VS"] ; # 
+  fhir:title [ fhir:v "Program Review Types"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-11-28T00:01:09-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "http://openclintech.com"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "http://openclintech.com" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://openclintech.com" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "A value set for the different types of reviews for a residency program."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

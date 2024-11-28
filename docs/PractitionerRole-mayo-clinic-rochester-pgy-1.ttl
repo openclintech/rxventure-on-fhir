@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openclintech.com/rxventure/fhir/PractitionerRole/mayo-clinic-rochester-pgy-1> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mayo-clinic-rochester-pgy-1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openclintech.com/rxventure/fhir/StructureDefinition/PostGradPosition"^^xsd:anyURI ;
+       fhir:link <http://openclintech.com/rxventure/fhir/StructureDefinition/PostGradPosition>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole mayo-clinic-rochester-pgy-1</b></p><a name=\"mayo-clinic-rochester-pgy-1\"> </a><a name=\"hcmayo-clinic-rochester-pgy-1\"> </a><a name=\"mayo-clinic-rochester-pgy-1-en-US\"> </a><p><b>identifier</b>: <code>https://www.ashp.org/professional-development/residency-information/residency-directory</code>/63500</p><p><b>active</b>: true</p><p><b>organization</b>: <a href=\"Organization-mayo-clinic.html\">Organization Mayo Clinic</a></p><p><b>code</b>: <span title=\"Codes:{http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category pgy1}\">PGY-1</span></p><p><b>specialty</b>: <span title=\"Codes:{http//www.openclintech.com/rxventure/fhir/CodeSystem/post-graduate-specialty pharmacy-practice}\">Pharmacy Practice</span></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.ashp.org/professional-development/residency-information/residency-directory"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "63500" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:organization [
+     fhir:link <http://openclintech.com/rxventure/fhir/Organization/mayo-clinic> ;
+     fhir:reference [ fhir:v "Organization/mayo-clinic" ] ;
+     fhir:type [ fhir:v "Organization"^^xsd:anyURI ]
+  ] ; # 
+  fhir:code ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "pgy1" ] ;
+       fhir:display [ fhir:v "PGY-1" ]
+     ] )
+  ] ) ; # 
+  fhir:specialty ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http//www.openclintech.com/rxventure/fhir/CodeSystem/post-graduate-specialty"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "pharmacy-practice" ] ;
+       fhir:display [ fhir:v "Pharmacy Practice" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

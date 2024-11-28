@@ -1,0 +1,45 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openclintech.com/rxventure/fhir/Observation/ExampleReviewOfMayoClinicPGY1> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ExampleReviewOfMayoClinicPGY1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openclintech.com/rxventure/fhir/StructureDefinition/program-review"^^xsd:anyURI ;
+       fhir:link <http://openclintech.com/rxventure/fhir/StructureDefinition/program-review>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation ExampleReviewOfMayoClinicPGY1</b></p><a name=\"ExampleReviewOfMayoClinicPGY1\"> </a><a name=\"hcExampleReviewOfMayoClinicPGY1\"> </a><a name=\"ExampleReviewOfMayoClinicPGY1-en-US\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types overall}\">Overall</span></p><p><b>focus</b>: <a href=\"PractitionerRole-mayo-clinic-rochester-pgy-1.html\">PractitionerRole PGY-1</a></p><p><b>effective</b>: 2024-11-27</p><p><b>performer</b>: <a href=\"Practitioner-joe-dirt.html\">Practitioner Joe Dirt </a></p><p><b>value</b>: 10</p><p><b>note</b>: Mayo Clinic Rochester PGY-1 is AWESOME. It's just very cold in Minnesota :(.</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "overall" ]
+     ] )
+  ] ; # 
+  fhir:focus ( [
+     fhir:link <http://openclintech.com/rxventure/fhir/PractitionerRole/mayo-clinic-rochester-pgy-1> ;
+     fhir:reference [ fhir:v "PractitionerRole/mayo-clinic-rochester-pgy-1" ] ;
+     fhir:type [ fhir:v "PractitionerRole"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:effective [ fhir:v "2024-11-27"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:link <http://openclintech.com/rxventure/fhir/Practitioner/joe-dirt> ;
+     fhir:reference [ fhir:v "Practitioner/joe-dirt" ] ;
+     fhir:type [ fhir:v "Practitioner"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:value [ fhir:v "10"^^xsd:integer] ; # 
+  fhir:note ( [
+     fhir:text [ fhir:v "Mayo Clinic Rochester PGY-1 is AWESOME. It's just very cold in Minnesota :(." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
