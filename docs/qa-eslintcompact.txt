@@ -1,0 +1,27 @@
+RxVentureIG
+=========================================
+
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/CodeSystem-post-graduate-category.json: line 0, col 0, Info - CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly (BUSINESSRULE)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/CodeSystem-post-graduate-category.json: line 1, col 1553, Warning - Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present (REQUIRED)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/CodeSystem-post-graduate-category.json: line 1, col 1553, Warning - Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present (REQUIRED)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/CodeSystem-program-review-types.json: line 0, col 0, Info - CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly (BUSINESSRULE)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/CodeSystem-program-review-types.json: line 1, col 1874, Warning - Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present (REQUIRED)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/CodeSystem-program-review-types.json: line 1, col 1874, Warning - Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present (REQUIRED)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/Observation-ExampleReviewOfMayoClinicPGY1.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a subject (INVALID)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/Organization-UniversityofUtahHealth.json: line 10, col 6, Error - Identifier.system must be an absolute reference, not a local reference (CODEINVALID)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/Organization-UniversityofUtahHealth.json: line 18, col 10, Error - Constraint failed: cpt-2: 'A system is required if a value is provided.' (INVARIANT)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/Organization-mayo-clinic.json: line 10, col 6, Error - Identifier.system must be an absolute reference, not a local reference (CODEINVALID)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/Organization-mayo-clinic.json: line 18, col 10, Error - Constraint failed: cpt-2: 'A system is required if a value is provided.' (INVARIANT)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/Practitioner-joe-dirt.json: line 25, col 8, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/PractitionerRole-mayo-clinic-rochester-pgy-1.json: line 31, col 6, Warning - A definition for CodeSystem 'http//www.openclintech.com/rxventure/fhir/CodeSystem/post-graduate-specialty' could not be found, so the code cannot be validated (NOTFOUND)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/PractitionerRole-mayo-clinic-rochester-pgy-1.json: line 31, col 6, Error - Coding.system must be an absolute reference, not a local reference (INVALID)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/StructureDefinition-user.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/ValueSet-PostGraduateCategory.json: line 1, col 1067, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
+/Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/ValueSet-program-review-types.json: line 1, col 1091, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
+
+err = 5, warn = 14, info = 2
+IG Publisher Version: 1.7.5

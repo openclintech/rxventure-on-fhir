@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="post-graduate-category"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem post-graduate-category</b></p><a name="post-graduate-category"> </a><a name="hcpost-graduate-category"> </a><a name="post-graduate-category-en-US"> </a><p>This  code system <code>http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">pgy1<a name="post-graduate-category-pgy1"> </a></td><td>PGY-1</td><td>Post-Graduate Year 1 positions</td></tr><tr><td style="white-space:nowrap">pgy2<a name="post-graduate-category-pgy2"> </a></td><td>PGY-2</td><td>Post-Graduate Year 2 positions</td></tr></table></div>
+  </text>
+  <url value="http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category"/>
+  <version value="0.1.0"/>
+  <name value="PostGraduateCategory_CS"/>
+  <title value="Post Graduate Category"/>
+  <status value="draft"/>
+  <date value="2024-11-28T00:14:15-05:00"/>
+  <publisher value="http://openclintech.com"/>
+  <contact>
+    <name value="http://openclintech.com"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://openclintech.com"/>
+    </telecom>
+  </contact>
+  <description value="Post Graduate Categories"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="pgy1"/>
+    <display value="PGY-1"/>
+    <definition value="Post-Graduate Year 1 positions"/>
+  </concept>
+  <concept>
+    <code value="pgy2"/>
+    <display value="PGY-2"/>
+    <definition value="Post-Graduate Year 2 positions"/>
+  </concept>
+</CodeSystem>

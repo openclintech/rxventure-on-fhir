@@ -1,0 +1,26 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://openclintech.com/rxventure/fhir/ValueSet/PostGraduateCategory",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PostGraduateCategory_VS",
+      "title" : "PostGraduateCategory_VS",
+      "description" : "Value Set for Post Graduate Category",
+      "systems" : [
+        "http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category"
+      ]
+    },
+    {
+      "url" : "http://openclintech.com/rxventure/fhir/ValueSet/program-review-types",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ProgramReviewTypes_VS",
+      "title" : "Program Review Types",
+      "description" : "A value set for the different types of reviews for a residency program.",
+      "systems" : [
+        "http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types"
+      ]
+    }
+  ]
+}

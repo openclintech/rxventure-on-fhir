@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="PostGraduateCategory"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet PostGraduateCategory</b></p><a name="PostGraduateCategory"> </a><a name="hcPostGraduateCategory"> </a><a name="PostGraduateCategory-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-post-graduate-category.html"><code>http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category</code></a></li></ul></div>
+  </text>
+  <url value="http://openclintech.com/rxventure/fhir/ValueSet/PostGraduateCategory"/>
+  <version value="0.1.0"/>
+  <name value="PostGraduateCategory_VS"/>
+  <title value="PostGraduateCategory_VS"/>
+  <status value="draft"/>
+  <date value="2024-11-28T00:14:15-05:00"/>
+  <publisher value="http://openclintech.com"/>
+  <contact>
+    <name value="http://openclintech.com"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://openclintech.com"/>
+    </telecom>
+  </contact>
+  <description value="Value Set for Post Graduate Category"/>
+  <compose>
+    <include>
+      <system value="http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category"/>
+    </include>
+  </compose>
+</ValueSet>

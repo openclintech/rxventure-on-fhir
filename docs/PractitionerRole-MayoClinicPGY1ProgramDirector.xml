@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="MayoClinicPGY1ProgramDirector"/>
+  <meta>
+    <profile value="http://openclintech.com/rxventure/fhir/StructureDefinition/ProgramContact"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: PractitionerRole MayoClinicPGY1ProgramDirector</b></p><a name="MayoClinicPGY1ProgramDirector"> </a><a name="hcMayoClinicPGY1ProgramDirector"> </a><a name="MayoClinicPGY1ProgramDirector-en-US"> </a><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-joe-dirt.html">Practitioner Joe Dirt </a></p><p><b>organization</b>: <a href="Organization-mayo-clinic.html">Organization Mayo Clinic</a></p><p><b>telecom</b>: <a href="mailto:dirt.joe@mayo.edu">dirt.joe@mayo.edu</a></p></div>
+  </text>
+  <active value="true"/>
+  <practitioner>
+    <reference value="Practitioner/joe-dirt"/>
+  </practitioner>
+  <organization>
+    <reference value="Organization/mayo-clinic"/>
+  </organization>
+  <telecom>
+    <system value="email"/>
+    <value value="dirt.joe@mayo.edu"/>
+  </telecom>
+</PractitionerRole>

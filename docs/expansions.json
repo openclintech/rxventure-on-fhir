@@ -1,0 +1,104 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "7ee44549-0655-4384-9132-9a2f25be5fcd",
+  "meta" : {
+    "lastUpdated" : "2024-11-28T00:14:15.296-05:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://openclintech.com/rxventure/fhir/ValueSet/PostGraduateCategory",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-post-graduate-category.html\">codesystem Post Graduate Category v0.1.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category-pgy1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-post-graduate-category.html#post-graduate-category-pgy1\">pgy1</a></td><td>http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category</td><td>PGY-1</td><td><div><p>Post-Graduate Year 1 positions</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category-pgy2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-post-graduate-category.html#post-graduate-category-pgy2\">pgy2</a></td><td>http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category</td><td>PGY-2</td><td><div><p>Post-Graduate Year 2 positions</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://openclintech.com/rxventure/fhir/ValueSet/PostGraduateCategory",
+      "version" : "0.1.0",
+      "name" : "PostGraduateCategory_VS",
+      "title" : "PostGraduateCategory_VS",
+      "status" : "draft",
+      "date" : "2024-11-28T00:14:15-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:47a390d3-f492-4fd1-ab26-d1aee634195c",
+        "timestamp" : "2024-11-28T00:14:27-05:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category",
+          "code" : "pgy1",
+          "display" : "PGY-1"
+        },
+        {
+          "system" : "http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category",
+          "code" : "pgy2",
+          "display" : "PGY-2"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://openclintech.com/rxventure/fhir/ValueSet/program-review-types",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-program-review-types.html\">codesystem Program Review Types v0.1.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types-overall\"> </a>\u00a0\u00a0<a href=\"CodeSystem-program-review-types.html#program-review-types-overall\">overall</a></td><td>http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types</td><td>Overall</td><td><div><p>Overall review of the residency program on a scale of 1 to 10. 1 being the worst and 10 being the best.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types-preceptor-quality\"> </a>\u00a0\u00a0<a href=\"CodeSystem-program-review-types.html#program-review-types-preceptor-quality\">preceptor-quality</a></td><td>http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types</td><td>Preceptor Quality</td><td><div><p>A review of the quality of preceptors at the residency program.</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://openclintech.com/rxventure/fhir/ValueSet/program-review-types",
+      "version" : "0.1.0",
+      "name" : "ProgramReviewTypes_VS",
+      "title" : "Program Review Types",
+      "status" : "draft",
+      "date" : "2024-11-28T00:14:15-05:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:982a1eb4-51de-40cf-a42e-89385979a4f8",
+        "timestamp" : "2024-11-28T00:14:27-05:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types",
+          "code" : "overall",
+          "display" : "Overall"
+        },
+        {
+          "system" : "http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types",
+          "code" : "preceptor-quality",
+          "display" : "Preceptor Quality"
+        }]
+      }
+    }
+  }]
+}

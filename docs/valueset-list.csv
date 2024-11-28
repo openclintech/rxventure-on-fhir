@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://openclintech.com/rxventure/fhir/ValueSet/PostGraduateCategory,0.1.0,draft,,PostGraduateCategory_VS,PostGraduateCategory_VS,"Value Set for Post Graduate Category",,"Internal"
+http://openclintech.com/rxventure/fhir/ValueSet/program-review-types,0.1.0,draft,,ProgramReviewTypes_VS,Program Review Types,"A value set for the different types of reviews for a residency program.",,"Internal"

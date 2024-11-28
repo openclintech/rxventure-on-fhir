@@ -1,0 +1,26 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://openclintech.com/rxventure/fhir/CodeSystem/post-graduate-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PostGraduateCategory_CS",
+      "title" : "Post Graduate Category",
+      "description" : "Post Graduate Categories",
+      "uses" : {
+      },
+      "ValueSet-PostGraduateCategory.html" : "PostGraduateCategory_VS"
+    },
+    {
+      "url" : "http://openclintech.com/rxventure/fhir/CodeSystem/program-review-types",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ProgramReviewTypes_CS",
+      "title" : "Program Review Types",
+      "description" : "The different types of reviews an individual can leave for a residency program.",
+      "uses" : {
+      },
+      "ValueSet-program-review-types.html" : "Program Review Types"
+    }
+  ]
+}

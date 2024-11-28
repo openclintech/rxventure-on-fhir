@@ -1,0 +1,64 @@
+RxVentureIG : Validation Results
+=========================================
+
+err = 5, warn = 14, info = 2
+$--
+Generated $--. FHIR version $-- for fhir.rxventure#$-- (canonical = http://openclintech.com/rxventure/fhir)
+ Build Errors : 0 / 4 / 0
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/CodeSystem-post-graduate-category : 0 / 2 / 2
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/CodeSystem-program-review-types : 0 / 2 / 2
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/ImplementationGuide-fhir.rxventure : 0 / 0 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/Observation-ExampleReviewOfMayoClinicPGY1 : 0 / 1 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/Organization-UniversityofUtahHealth : 2 / 0 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/Organization-mayo-clinic : 2 / 0 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/Practitioner-joe-dirt : 0 / 1 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/PractitionerRole-MayoClinicPGY1ProgramDirector : 0 / 0 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/PractitionerRole-mayo-clinic-rochester-pgy-1 : 1 / 1 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/StructureDefinition-PostGradPosition : 0 / 0 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/StructureDefinition-PostGraduateOrganization : 0 / 0 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/StructureDefinition-ProgramContact : 0 / 0 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/StructureDefinition-ProgramPractitioner : 0 / 0 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/StructureDefinition-program-review : 0 / 0 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/StructureDefinition-user : 0 / 1 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/ValueSet-PostGraduateCategory : 0 / 1 / 1
+ /Users/briankfung/dev/rxventure-fhir-ig/RxVentureIG/fsh-generated/resources/ValueSet-program-review-types : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-post-graduate-category.json ==
+INFORMATION: CodeSystem/post-graduate-category: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/post-graduate-category: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/post-graduate-category: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-program-review-types.json ==
+INFORMATION: CodeSystem/program-review-types: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/program-review-types: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/program-review-types: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-fhir.rxventure.json ==
+== fsh-generated/resources/Observation-ExampleReviewOfMayoClinicPGY1.json ==
+WARNING: Observation/ExampleReviewOfMayoClinicPGY1: Observation: Best Practice Recommendation: In general, all observations should have a subject
+== fsh-generated/resources/Organization-UniversityofUtahHealth.json ==
+ERROR: Organization/UniversityofUtahHealth: Organization.identifier[0]: Identifier.system must be an absolute reference, not a local reference
+ERROR: Organization/UniversityofUtahHealth: Organization.contact[0].telecom[0]: Constraint failed: cpt-2: 'A system is required if a value is provided.'
+== fsh-generated/resources/Organization-mayo-clinic.json ==
+ERROR: Organization/mayo-clinic: Organization.identifier[0]: Identifier.system must be an absolute reference, not a local reference
+ERROR: Organization/mayo-clinic: Organization.contact[0].telecom[0]: Constraint failed: cpt-2: 'A system is required if a value is provided.'
+== fsh-generated/resources/Practitioner-joe-dirt.json ==
+WARNING: Practitioner/joe-dirt: Practitioner.qualification[0].code.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+== fsh-generated/resources/PractitionerRole-MayoClinicPGY1ProgramDirector.json ==
+== fsh-generated/resources/PractitionerRole-mayo-clinic-rochester-pgy-1.json ==
+WARNING: PractitionerRole/mayo-clinic-rochester-pgy-1: PractitionerRole.specialty[0].coding[0].system: A definition for CodeSystem 'http//www.openclintech.com/rxventure/fhir/CodeSystem/post-graduate-specialty' could not be found, so the code cannot be validated
+ERROR: PractitionerRole/mayo-clinic-rochester-pgy-1: PractitionerRole.specialty[0].coding[0].system: Coding.system must be an absolute reference, not a local reference
+== fsh-generated/resources/StructureDefinition-PostGradPosition.json ==
+== fsh-generated/resources/StructureDefinition-PostGraduateOrganization.json ==
+== fsh-generated/resources/StructureDefinition-ProgramContact.json ==
+== fsh-generated/resources/StructureDefinition-ProgramPractitioner.json ==
+== fsh-generated/resources/StructureDefinition-program-review.json ==
+== fsh-generated/resources/StructureDefinition-user.json ==
+WARNING: StructureDefinition.where(url = 'http://openclintech.com/rxventure/fhir/StructureDefinition/user'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-PostGraduateCategory.json ==
+WARNING: ValueSet/PostGraduateCategory: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-program-review-types.json ==
+WARNING: ValueSet/program-review-types: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
