@@ -18,7 +18,7 @@
    <version value="0.1.0"/>
    <name value="RxVentureIG"/>
    <status value="draft"/>
-   <date value="2024-11-24T21:51:57-05:00"/>
+   <date value="2024-11-28T00:01:09-05:00"/>
    <publisher value="http://openclintech.com"/>
    <contact>
       <name value="http://openclintech.com"/>
@@ -367,6 +367,24 @@
             <valueInteger value="999999999"/>
          </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-ExampleReviewOfMayoClinicPGY1.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/ExampleReviewOfMayoClinicPGY1"/>
+         </reference>
+         <name value="ExampleReviewOfMayoClinicPGY1"/>
+         <description value="An example review of Mayo Clinic's PGY-1 Pharmacy Residency Program."/>
+         <exampleCanonical value="http://openclintech.com/rxventure/fhir/StructureDefinition/program-review"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Organization"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -406,10 +424,10 @@
             <valueString value="PractitionerRole"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="PractitionerRole-MayoClinicRochesterPGY1PharmacyResident.html"/>
+            <valueUri value="PractitionerRole-mayo-clinic-rochester-pgy-1.html"/>
          </extension>
          <reference>
-            <reference value="PractitionerRole/MayoClinicRochesterPGY1PharmacyResident"/>
+            <reference value="PractitionerRole/mayo-clinic-rochester-pgy-1"/>
          </reference>
          <name value="MayoClinicRochesterPGY1PharmacyResident"/>
          <description value="A PGY-1 Pharmacy Resident Position at Mayo Clinic Rochester"/>
@@ -496,6 +514,60 @@
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-program-review.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/program-review"/>
+         </reference>
+         <name value="Program Review"/>
+         <description value="A single review given by an individual about a residency program."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-program-review-types.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/program-review-types"/>
+         </reference>
+         <name value="Program Review Types"/>
+         <description value="A value set for the different types of reviews for a residency program."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-program-review-types.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/program-review-types"/>
+         </reference>
+         <name value="Program Review Types"/>
+         <description value="The different types of reviews an individual can leave for a residency program."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-ProgramContact.html"/>
          </extension>
          <reference>
@@ -559,6 +631,24 @@
          <description value="University of Utah Health"/>
          <exampleCanonical value="http://openclintech.com/rxventure/fhir/StructureDefinition/PostGraduateOrganization"/>
          <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-user.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/user"/>
+         </reference>
+         <name value="User"/>
+         <description value="An individual that is a pharmacy student or pharmacist."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-profile"/>
       </resource>
       <page>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
